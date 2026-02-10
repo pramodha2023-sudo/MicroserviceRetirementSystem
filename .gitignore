@@ -1,0 +1,37 @@
+# Build output
+target/
+*.jar
+*.class
+*.war
+
+# IDE
+.classpath
+.project
+.settings/
+.idea/
+*.iml
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+$RECYCLE.BIN/
+
+# Logs
+*.log
+retirement_logs/
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+
+# Dependencies
+node_modules/
+.m2/
+
+# Environment
+.env
+.env.local

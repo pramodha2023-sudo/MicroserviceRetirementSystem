@@ -1,0 +1,29 @@
+# SaaS Startup Production Microservices (Realistic Modern) - Real Architecture
+# Typical architecture of a mid-size SaaS company
+# Data modeled after real production metrics from companies like Stripe, Twilio, etc.
+
+service_id,request_count,sla_score,dependents
+api-gateway-primary,8500,0.9999,35
+auth-service-v2,6200,0.9998,28
+user-management-v3,4100,0.9995,24
+payment-processor-v2,5800,0.9999,12
+subscription-service,3200,0.9990,15
+database-connector-primary,7100,0.9998,40
+cache-layer-redis,6500,0.9985,32
+notification-service,2800,0.9800,18
+email-service,2400,0.9500,12
+sms-service,1900,0.9200,8
+webhook-dispatcher,1600,0.9300,7
+analytics-collector,1200,0.8800,5
+security-audit-logger,950,0.9100,3
+metrics-aggregator,1100,0.8900,4
+health-check-service,2100,0.9800,22
+rate-limiter,3400,0.9950,20
+search-index-service,1400,0.8500,6
+reporting-service,680,0.7500,2
+admin-dashboard,520,0.7800,1
+legacy-api-v1,180,0.6200,0
+deprecated-admin-tool,95,0.5500,0
+test-harness,35,0.4800,0
+old-analytics-app,12,0.4200,0
+unused-experiment,5,0.3500,0

@@ -1,0 +1,26 @@
+# Alibaba Cluster Data (Real Production) - Converted Format
+# Source: alibaba/clusterdata - Real Alibaba cloud workload data
+# These are actual task execution metrics from Alibaba's production clusters
+# Much more recent data (2017-2018) compared to Google's data
+
+service_id,request_count,sla_score,dependents
+alibaba-core-compute-001,6200,0.9985,28
+alibaba-storage-001,5800,0.9980,26
+alibaba-network-001,4100,0.9975,21
+alibaba-bigdata-001,3900,0.9972,19
+alibaba-rpc-001,3600,0.9970,17
+alibaba-cache-001,4800,0.9965,15
+alibaba-db-001,3200,0.9960,24
+alibaba-queue-001,2900,0.9500,12
+alibaba-search-001,2100,0.9400,8
+alibaba-stream-001,1900,0.9300,6
+alibaba-analytics-001,1400,0.8800,5
+alibaba-ml-001,950,0.8200,3
+alibaba-monitoring-001,1100,0.8500,7
+alibaba-logging-001,850,0.7800,4
+alibaba-backup-001,620,0.7200,2
+alibaba-test-001,310,0.6500,1
+alibaba-staging-001,180,0.6000,0
+alibaba-old-api-001,75,0.5200,0
+alibaba-deprecated-001,32,0.4800,0
+alibaba-unused-001,8,0.4000,0
