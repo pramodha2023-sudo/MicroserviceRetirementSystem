@@ -216,5 +216,5 @@ Tests validate:
 This project is provided as-is for research and educational purposes.
 
 ## Authors
-Cloud-Native Systems Research Group
-2026
+**Pramodha** - Full Stack Java Developer  
+Built the Microservice Retirement System with AWS integration and real-world dataset support.
